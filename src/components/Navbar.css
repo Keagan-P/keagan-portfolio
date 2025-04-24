@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Distributes items horizontally */
+    align-items: center; /* Vertically aligns items in the center */
+    padding: 20px 30px; /* Adjust padding as needed */
+    background-color: #181818; /* Example dark background */
+    color: white; /* Example text color */
+  }
+  
+  .navbar-logo {
+    font-size: 1.5em; /* Adjust font size */
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Arrange links horizontally */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    margin-left: 60px; /* Spacing between links */
+  }
+  
+  .navbar-links a {
+    text-decoration: none; /* Remove underlines from links */
+    color: white;
+    /* Add hover effects or other styling */
+  }
+
+  .navbar-links a:hover{
+    color: #e50914;
+  }
+  
+  .navbar-button button {
+    background-color: #e50914; /* Example button background color (red) */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    font-weight: bold;
+    /* Add hover effects or other styling */
+  }

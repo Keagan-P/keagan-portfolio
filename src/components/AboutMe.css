@@ -1,0 +1,86 @@
+/* AboutMe.css */
+.about-me-container {
+  background-color: #181818;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: sans-serif;
+  display: flex; /* Enable flexbox for centering */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.about-me-content {
+  display: flex;
+  flex-direction: row; /* Stack on smaller screens */
+  align-items: center;
+  justify-content: space-between;
+  width: 90%; /* Adjust as needed to control overall width */
+  max-width: 1200px; /* Optional: set a maximum width */
+}
+
+.about-me-text {
+  flex: 1;
+  padding-right: 20px;
+  text-align: left; /* Align text to the left within its container */
+}
+
+.about-me-text h2 {
+  font-size: 2.5em;
+  margin-bottom: 12px;
+}
+
+.about-me-text h3 {
+  font-size: 1.5em;
+  margin-bottom: 25px;
+}
+
+.about-me-text p {
+  font-size: 1.2em;
+  line-height: 1.8;
+  color: #ccc;
+}
+
+.download-cv-button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 1.1em;
+  background-color: #dc3545; /* Example button color */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+
+.about-me-image {
+  flex: 1;
+  max-width: 450px; /* Adjust as needed */
+  margin-left: 20px;
+}
+
+.about-me-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px; /* Optional: add some rounding to the image */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .about-me-content {
+    flex-direction: column; /* Stack the content vertically */
+    align-items: center; /* Center items horizontally on smaller screens */
+  }
+
+  .about-me-text {
+    padding-right: 0; /* Remove right padding on smaller screens */
+    margin-bottom: 20px;
+    text-align: center; /* Center text on smaller screens */
+  }
+
+  .about-me-image {
+    max-width: 80%; /* Adjust image width on smaller screens */
+    margin-left: 0;
+    margin-bottom: 20px; /* Add margin below image on smaller screens */
+  }
+}
+  

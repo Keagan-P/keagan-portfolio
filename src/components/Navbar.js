@@ -3,7 +3,7 @@ import './Navbar.css'; // You can create a CSS file for styling
 
 function Navbar() {
   return (
-    <nav className="navbar">
+    <nav className="navbar" id="home">
       <div className="navbar-logo">
         
       </div>
@@ -15,7 +15,6 @@ function Navbar() {
         <li><a href="#contact">Contact me</a></li>
       </ul>
       <div className="navbar-button">
-        <button>Hire Me</button>
       </div>
     </nav>
   );

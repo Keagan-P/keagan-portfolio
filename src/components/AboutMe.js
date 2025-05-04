@@ -6,7 +6,7 @@ import cvFile from '../CV/KeaganCV.pdf';
 
 const AboutMe = () => {
   return (
-    <div className="about-me-container">
+    <div className="about-me-container" id="about">
       <div className="about-me-content">
         <div className="about-me-text">
           <h2>About Me</h2>

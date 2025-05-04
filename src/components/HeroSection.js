@@ -16,8 +16,9 @@ function HeroSection() {
             <a href="https://www.instagram.com/keagan_pgt/?api=postMessage" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
           </div>
           <div className="hero-buttons">
-            <button className="button primary-button">Hire Me</button>
-            <button className="button secondary-button">Download CV</button>
+            <a href="/cv.pdf" download className="button secondary-button">
+             Download CV
+            </a>
           </div>
           <div className="hero-stats">
             <div className="stat-item">

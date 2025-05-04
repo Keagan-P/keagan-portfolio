@@ -41,7 +41,7 @@ function ServicesSection() {
     <section className="services-section">
       <div className="services-header">
         <h2>Services</h2>
-        <p>Lorem ipsum dolor sit amet consectetur. Imperdiet convallis blandit felis ligula aliquam</p>
+        <p>These are some of the services I offer</p>
       </div>
       <div className="services-grid">
         {services.map((service, index) => (

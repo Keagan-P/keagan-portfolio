@@ -45,7 +45,7 @@ const PortfolioSection = () => {
   const filters = ['All', 'Website Design', 'App Mobile Design', 'App Desktop', 'Braiding']; // Add all your categories
 
   return (
-    <div className="portfolio-section">
+    <div className="portfolio-section" id="portfolio">
       <h2>Portfolio</h2>
       <div className="filter-buttons">
         {filters.map((filter, index) => (

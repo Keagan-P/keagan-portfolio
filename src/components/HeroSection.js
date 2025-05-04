@@ -1,7 +1,8 @@
 import React from 'react';
 import './HeroSection.css';
 import ProfileImage from '../pictures/KeaganPortfolio.jpg';
-import { FaGithub, FaInstagram, } from 'react-icons/fa'; // Import the desired icons
+import { FaGithub, FaInstagram, } from 'react-icons/fa';
+import cvFile from '../CV/KeaganCV.pdf';
 
 function HeroSection() {
   return (
@@ -16,7 +17,7 @@ function HeroSection() {
             <a href="https://www.instagram.com/keagan_pgt/?api=postMessage" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
           </div>
           <div className="hero-buttons">
-            <a href="/cv.pdf" download className="button secondary-button">
+            <a href={cvFile} download="KeaganPotgieterCV.pdf" className="button secondary-button">
              Download CV
             </a>
           </div>

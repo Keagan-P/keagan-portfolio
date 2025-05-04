@@ -27,7 +27,7 @@ const AboutMe = () => {
             that every digital product I work on is both aesthetically refined and
             highly usable.
           </p>
-          <a href={cvFile} download="Your_CV.pdf" className="download-cv-button">
+          <a href={cvFile} download="KeaganPotgieterCV.pdf" className="download-cv-button">
             Download CV
           </a>
         </div>

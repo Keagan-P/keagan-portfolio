@@ -1,11 +1,12 @@
 import React from 'react';
-import './Navbar.css'; // You can create a CSS file for styling
+import '../styles/Navbar.css';
+import logo from '../pictures/KPlogo.png';
 
 function Navbar() {
   return (
     <nav className="navbar" id="home">
       <div className="navbar-logo">
-        
+        <img src={logo} alt="KP Logo" className="logo-image" />
       </div>
       <ul className="navbar-links">
         <li><a href="#home">Home</a></li>

@@ -35,18 +35,35 @@
   
   .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    width: 90%; 
-    max-width: 1200px; 
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    justify-items: center; 
   }
   
+  
+  
   .project-card {
+    width: 300px;
     background-color: #222;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; 
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
   
   .project-card:hover {

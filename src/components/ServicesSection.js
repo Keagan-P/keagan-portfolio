@@ -1,7 +1,9 @@
 import React from 'react';
-import './ServicesSection.css'; // Create this CSS file
+import '../styles/ServicesSection.css';
 import ServiceCard from './ServiceCard';
-import { FaCode, FaMobileAlt, FaPaintBrush } from 'react-icons/fa'; // Example icons
+import { FaCode, FaMobileAlt, FaPaintBrush, FaDatabase } from 'react-icons/fa';
+import { RiAdminFill } from "react-icons/ri";
+import { CgWebsite } from "react-icons/cg";
 
 function ServicesSection() {
   const services = [
@@ -21,17 +23,17 @@ function ServicesSection() {
       description: 'Figma is my primary tool for creating and collaborating on digital designs. I leverage its powerful features for UI design, prototyping, and design system management to streamline the design process and facilitate effective teamwork. My proficiency in Figma allows for rapid iteration and seamless handoff to development.',
     },
     {
-      icon: <FaMobileAlt />,
+      icon: <FaDatabase />,
       title: 'Database Design',
       description: 'I specialize in designing databases that ensure data accuracy, consistency, and security. My process involves carefully defining data entities, relationships, and constraints to create well-normalized and reliable database systems that support complex data operations and reporting needs.',
     },
     {
-      icon: <FaCode />,
+      icon: <RiAdminFill />,
       title: 'Database Admin',
       description: 'My expertise in database administration encompasses the technical aspects of managing and maintaining database systems, including security implementation, performance optimization, and disaster recovery planning. I am dedicated to ensuring the reliability and security of organizational data.',
     },
     {
-      icon: <FaPaintBrush />,
+      icon: <CgWebsite />,
       title: 'Website Admin',
       description: 'As a Website Administrator, I ensure the smooth operation, security, and optimal performance of web platforms. My responsibilities include website updates, content management, user administration, security monitoring, and troubleshooting technical issues to maintain a positive user experience.',
     },
@@ -40,7 +42,7 @@ function ServicesSection() {
   return (
     <section className="services-section">
       <div className="services-header">
-        <h2>Services</h2>
+        <h2 id="services">Services</h2>
         <p>These are some of the services I offer</p>
       </div>
       <div className="services-grid">

@@ -61,3 +61,12 @@
 .contact-form button:hover {
     background-color: #c82333;
 }
+
+.error {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  

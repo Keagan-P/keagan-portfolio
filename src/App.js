@@ -2,6 +2,7 @@
 import './App.css';
 import AboutMe from './components/AboutMe';
 import ContactForm from './components/ContactForm';
+import Footer from './components/Footer';
 import HeroSection from './components/HeroSection';
 import Navbar from './components/Navbar';
 import PortfolioSection from './components/PortfolioSection';
@@ -17,6 +18,7 @@ function App() {
       <AboutMe />
       <PortfolioSection />
       <ContactForm />
+      <Footer />
     </div>
   );
 }
